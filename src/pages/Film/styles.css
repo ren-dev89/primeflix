@@ -1,0 +1,69 @@
+.loading {
+  text-align: center;
+}
+
+.film-info {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.film-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.film-info h1 {
+  margin-bottom: 2rem;
+}
+
+.film-info h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.film-info span {
+  margin: 0.5rem 0;
+}
+
+.film-info img {
+  width: 800px;
+  max-width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.area-buttons {
+  margin-top: 1rem;
+}
+
+.area-buttons button {
+  font-size: 20px;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.area-buttons button:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.area-buttons button:hover {
+  color: #fff;
+  background: brown;
+}
+
+.area-buttons a {
+  text-decoration: none;
+  color: #000;
+  transition: all 300ms;
+}
+
+.area-buttons a:hover {
+  color: #fff;
+}
