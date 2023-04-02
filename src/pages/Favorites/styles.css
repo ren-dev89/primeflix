@@ -1,0 +1,56 @@
+.my-films {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.my-films h1 {
+  margin-bottom: 1.5rem;
+}
+
+.my-films span {
+  font-size: 18px;
+}
+
+.my-films ul {
+  width: 800px;
+}
+
+.my-films li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-films li:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.my-films div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-films div a {
+  text-decoration: none;
+  color: #116feb;
+  margin-right: 1rem;
+}
+
+.my-films div button {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.my-films div button:hover {
+  background: brown;
+  color: #fff;
+}
